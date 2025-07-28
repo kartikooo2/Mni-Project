@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+  --purple500: #281154;
+  --purple300: #270082;
+  --purple600: #1b0058;
+  --red600: #dc0000;
+  --body: #f9f6ff;
+  --max-width: 1200px;
+}
+
+html , body{
+    font-family: "Roboto" , sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+* {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    }
+header {
+    background-color: #270082;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px black;
+}
+    
+
+.container ul li a{
+    color: #f9f6ff;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.container ul{
+    display: flex;
+    gap: 20px;
+}
+.logo {
+    color: #f9f6ff;
+    font-size: 40px;
+    font-weight: 600;
+}
+.container ul li{
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+}
+.container ul li:hover {
+    border-bottom: 2px solid wheat;
+     transition: 0.2s ease-in;
+}
+.hero-section {
+    background-image: url(images/hero_image.png);
+    height: 100vh;
+    place-items: center;
+    display: grid;
+    text-align: center;
+    color: aliceblue;
+
+}
+.hero-section .container1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+.music-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #281154;
+}
+.music-section .container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 20px;
+    color: #f9f6ff;
+}
+.ipad-iphone-img {
+    position: relative;
+    top: 400px;
+    margin-top: -400px;
+}
+.button1 {
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.button1:hover  {
+    background-color: rgb(103, 138, 169);
+
+}
+.about-music {
+    margin-top: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 400;
+} 
+    
+
+
+.button2  {
+    padding: 15px;
+    background-color: #3d1990;
+    border-radius: 10px;
+    color: #f9f6ff;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.button2:hover {
+    background-color: #22026e;
+}
+.video-section {
+    background-image: url(images/video.png);
+    min-height: 800px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.container3 {
+    color: aliceblue;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 20px;
+    font-style: italic;
+    
+}
+.hero-section , .video-section {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gift-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.container4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 200px;
+    
+}
+.button3 {
+    padding: 15px;
+    background-color: aqua;
+    color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.button3:hover {
+    background-color: aquamarine;
+}
+.container4 h3 {
+    margin-bottom: 30px;
+    font-size: 30px;
+
+}
+.container4 p {
+    margin-right: 50px;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.container5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+    font-size: 30px;
+    color: #f9f6ff;
+}
+.upper {
+    background-color: #1b0058;
+padding: 1px;  
+margin-top: 50px;
+}
+.container5 h4 {
+    margin-bottom: 20px;
+    font-weight:700px ;
+   
+}
+.container5 ul li {
+    font-size: 20px;
+}
+.lower {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    background-color: #2c038b;
+    color: aliceblue;
+}
+.upper h4 {
+    border-bottom: 2px solid white;
+}
+
+
+    
+
+
